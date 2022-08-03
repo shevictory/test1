@@ -1,0 +1,37 @@
+.asideContainer {
+  padding: 20px 0;
+  width: 25%;
+}
+
+.asideContainer ul {
+  border-right: 1px solid lightgray;
+}
+
+.asideContainer ul:first-child {
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.asideContainer ul:last-child {
+  padding-top: 10px;
+}
+
+.asideContainer a {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  transition: all 0.2s;
+}
+
+.asideContainer a:hover {
+  box-shadow: 0 0 10px 0 lightgrey;
+  color: grey;
+}
+
+.iconContainer {
+  width: 20%;
+  text-align: center;
+  color: lightgrey;
+  padding-right: 5px;
+}
